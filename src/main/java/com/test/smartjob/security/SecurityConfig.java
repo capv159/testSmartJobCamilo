@@ -8,6 +8,10 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
+/**
+ * 
+ * clase que restringe los endpoint y utiliza el componente de filtrado del interceptor
+ * */
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {

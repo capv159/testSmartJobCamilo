@@ -12,6 +12,11 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
+
+/**
+ * 
+ * clase que intercpeta las peticiones y valida la existencia del token
+ * */
 public class JwtFilter extends OncePerRequestFilter {
 	
 	private final JwtUtil jwtUtil;

@@ -12,6 +12,10 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.security.Keys;
 
+/**
+ * 
+ * clase que gestiona la informacion del jwt
+ * */
 @Component
 public class JwtUtil {
 	

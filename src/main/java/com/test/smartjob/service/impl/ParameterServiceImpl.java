@@ -24,6 +24,12 @@ public class ParameterServiceImpl implements ParameterService {
 	@Autowired
 	ParameterRepository parameterRepository;
 
+	/**
+	 * funcion encargada de realizar la operacion de actualizacion de un parametro
+	 * 
+	 * @param ParameterModel: POJO que contiene la informacion de un parametro
+	 * @return ParameterModel: POJO que contiene la informacion de un parametro actualizado
+	 */
 	@Override
 	public ParameterModel updateParameter(ParameterModel parameterModel) {
 
@@ -47,6 +53,12 @@ public class ParameterServiceImpl implements ParameterService {
 
 	}
 
+	/**
+	 * funcion encargada de realizar la operacion de consulta de un parametro
+	 * 
+	 * @param name: String con el nombre del aparametro a consultar
+	 * @return ParameterModel: POJO que contiene la informacion de un parametro actualizado
+	 */
 	public ParameterModel consultParameter(String name) {
 
 		Optional<ParameterEntity> optionalParameter = parameterRepository.findByName(name);
@@ -63,6 +75,12 @@ public class ParameterServiceImpl implements ParameterService {
 		throw new BadDataException("No existe parametro");
 	}
 
+	/**
+	 * funcion encargada de realizar la operacion de validacion de nuevas expresiones a actualizar
+	 * 
+	 * @param expresion: String con la expresion a validar
+	 * @return boolean: bandera que indica si la expresion es valida o no
+	 */
 	private boolean validarExpresion(String expresion) {
 		try {
 			Pattern.compile(expresion);
