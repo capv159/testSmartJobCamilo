@@ -44,13 +44,13 @@ mvn package
 ```
 ![Image text](https://github.com/capv159/imagenes/blob/main/smartJob/mvn_pakcage1.PNG)
 
-seejectutaran algunos test y descargaran dependencias
+se ejectutaran algunos test y descargaran dependencias
 
 ![Image text](https://github.com/capv159/imagenes/blob/main/smartJob/mvn_pakcage2.PNG)
 
 luego en la carpeta target del proyecto:
 ```
-java -jar credibanco-tarjetas-0.0.1-SNAPSHOT.jar
+java -jar testSmartJobCamilo-0.0.1-SNAPSHOT.jar
 ```
 ![Image text](https://github.com/capv159/imagenes/blob/main/smartJob/java_jar.PNG)
 
@@ -60,11 +60,9 @@ ejecutar en la carpeta del proyecto:
 ```
 mvn test
 ```
-![Image text](https://github.com/capv159/imagenes/blob/main/smartJob/mvn_test.PNG)
-
 Luego para validar cobertura de código abrir el archivo index.html de esta ruta
 ```
-\credibanco-tarjetas\target\reporte
+\testSmartJobCamilo\target\reporte
 ```
 ![Image text](https://github.com/capv159/imagenes/blob/main/smartJob/coverage.PNG)
 
@@ -81,9 +79,9 @@ Password: sa
 
 ### Proyecto Postman  🔧
 
-[Descargar proyecto Postman](https://github.com/capv159/imagenes/blob/main/credibanco/testSmartJobCamilo.postman_collection.json)
+[Descargar proyecto Postman](https://github.com/capv159/imagenes/blob/main/smartJob/testSmartJobCamilo.postman_collection.json)
 
-![Image text](https://github.com/capv159/imagenes/blob/main/smartJob//postman.PNG)
+![Image text](https://github.com/capv159/imagenes/blob/main/smartJob/postman.PNG)
 
 
 ## Autores ✒️
