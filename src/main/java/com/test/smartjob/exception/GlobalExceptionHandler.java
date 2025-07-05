@@ -14,6 +14,11 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 import com.test.smartjob.model.ApiError;
 
+
+/**
+ * 
+ * clase que gestiona de forma globalla excepciones generadas en cualquier parte del servicios
+ * */
 @ControllerAdvice
 public class GlobalExceptionHandler {
 

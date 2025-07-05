@@ -37,6 +37,12 @@ public class UserServiceImpl implements UserService {
 	@Autowired
 	JwtUtil jwtUtil;
 
+	/**
+	 * funcion encargada de realizar la operacion de registro de usuario
+	 * 
+	 * @param UserModel: POJO que contiene la informacion de un usuario
+	 * @return UserModel: POJO que contiene la informacion del usuario registrado
+	 */
 	@Override
 	public UserModel registerUserService(UserModel userModel) {
 
@@ -56,6 +62,12 @@ public class UserServiceImpl implements UserService {
 		throw new BusinessException("error registrando un usuario");
 	}
 
+	/**
+	 * funcion encargada de realizar la operacion de validacion y obtencion de  token de un usuario existente
+	 * 
+	 * @param LoginModel: POJO que contiene la informacion de login de un usuario
+	 * @return LoginModel: POJO que contiene la informacion de login de un usuario registrado
+	 */
 	@Override
 	public LoginModel validateUserService(LoginModel loginModel) {
 
@@ -81,6 +93,13 @@ public class UserServiceImpl implements UserService {
 
 	}
 
+	/**
+	 * funcion encargada de realizar la operacion de validacion de usuarios con el campo email, 
+	 * para mantener unicidad en el campo
+	 * 
+	 * @param UserModel: POJO que contiene la informacion de un usuario
+	 * @return boolean: bandera que identifica si la validacion es exitosa o no
+	 */
 	private boolean validateEmailUser(UserModel userModel) {
 
 		Optional<UserEntity> optionalUser = userRepository.findByEmail(userModel.getEmail());
@@ -92,6 +111,13 @@ public class UserServiceImpl implements UserService {
 		return true;
 	}
 
+	
+	/**
+	 * funcion encargada de realizar la operacion de validacion de password vs la expresion regular parametrizada
+	 * 
+	 * @param UserModel: POJO que contiene la informacion de un usuario
+	 * @return boolean: bandera que identifica si la validacion es exitosa o no
+	 */
 	private boolean validatePasswordUser(UserModel userModel) {
 
 		Optional<ParameterEntity> optionalParameter = parameterRepository.findByName("password_pattern");
