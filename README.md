@@ -42,7 +42,7 @@ mvn compile
 ```
 mvn package
 ```
-![Image text](https://github.com/capv159/imagenes/blob/main/smartJob/mvn_packcage.PNG)
+![Image text](https://github.com/capv159/imagenes/blob/main/smartJob/mvn_pakcage.PNG)
 
 luego en la carpeta target del proyecto:
 ```
@@ -67,7 +67,7 @@ Luego para validar cobertura de código abrir el archivo index.html de esta ruta
 ## Entorno de Base de datos ⚙️
 Esta aplicación funciona con una base de datos relacional en memoria llamada h2, para ingresar a la gestión de la misma se debe ingresar por medio de un navegador web con los siguientes datos
 ```
-JDBC URL: jdbc:h2:mem:credibanco_bd_tarjetas
+JDBC URL: jdbc:h2:mem:test_bd
 User Name: sa
 Password: sa
 ```
@@ -75,13 +75,6 @@ Password: sa
 
 ## Ejecutando los servicios ⚙️
 
-a continuación se encuentra la documentación de los servicios construidos, esta también puede ser validada en la siguiente url 
-
-### Entorno Cloud :cloud: ☁️
-El proyecto fue desplegado en el entorno EC2 de AWS, la url publica de los servicios es:
-```
-ec2-54-226-97-79.compute-1.amazonaws.com
-```
 ### Proyecto Postman  🔧
 
 [Descargar proyecto Postman](https://github.com/capv159/imagenes/blob/main/credibanco/testSmartJobCamilo.postman_collection.json)
