@@ -1,6 +1,19 @@
 # Aplicación Registro de usuarios
 El siguiente repositorio tiene la finalidad de brindar una solución al reto propuesto por la compañía smartJob
 
+## Diagramas :computer:
+Casos de uso:
+
+![Image text](https://github.com/capv159/imagenes/blob/main/smartJob/casos_uso.PNG)
+
+Paquetes:
+
+![Image text](https://github.com/capv159/imagenes/blob/main/smartJob/paquetes.PNG)
+
+Secuencia:
+
+![Image text](https://github.com/capv159/imagenes/blob/main/smartJob/secuencia.PNG)
+
 ## Comenzando 🚀
 
 - Para la solución del reto se planteo utilizar el lenguaje java en su versión 17 la cual es libre para temas de licenciamiento en ambientes productivos.
