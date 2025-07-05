@@ -77,6 +77,10 @@ Password: sa
 
 ## Ejecutando los servicios ⚙️
 
+la documentacion de los servicios se encuentra aqui: [Swagger Servicios](https://github.com/capv159/imagenes/blob/main/smartJob/swaggerServicios.yml) esta dicumentacion puede ser validada en: https://editor.swagger.io/
+
+![Image text](https://github.com/capv159/imagenes/blob/main/smartJob/swagger.PNG)
+
 ### Proyecto Postman  🔧
 
 [Descargar proyecto Postman](https://github.com/capv159/imagenes/blob/main/smartJob/testSmartJobCamilo.postman_collection.json)
