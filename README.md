@@ -100,6 +100,10 @@ la documentacion de los servicios se encuentra aqui: [Swagger Servicios](https:/
 
 ![Image text](https://github.com/capv159/imagenes/blob/main/smartJob/postman.PNG)
 
+### Seguridad Servicios :space_invader:
+Todos los enpoint necesitan un token para funcionar excepto los endpoint de resgitro de ususarios y login, es por esto que primero se debe crear un usuario y luego con el token devuelto se puede consumir los otros servicios d ela siguiente manera:
+
+![Image text](https://github.com/capv159/imagenes/blob/main/smartJob/consumo_jwt.PNG)
 
 ## Autores ✒️
 
