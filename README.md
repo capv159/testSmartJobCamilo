@@ -42,7 +42,11 @@ mvn compile
 ```
 mvn package
 ```
-![Image text](https://github.com/capv159/imagenes/blob/main/smartJob/mvn_pakcage.PNG)
+![Image text](https://github.com/capv159/imagenes/blob/main/smartJob/mvn_pakcage1.PNG)
+
+seejectutaran algunos test y descargaran dependencias
+
+![Image text](https://github.com/capv159/imagenes/blob/main/smartJob/mvn_pakcage2.PNG)
 
 luego en la carpeta target del proyecto:
 ```
